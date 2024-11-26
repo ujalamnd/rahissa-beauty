@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahissa Beauty - Gifts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Rahissa Beauty Logo.jpg" alt="Rahissa Beauty Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <ul class="horizontal-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="New Arrivals.html">New Arrivals</a></li>
+                <li><a href="Tutorials.html">Tutorials</a></li>
+                <li><a href="Make Up Sale.html">Make Up Sale</a></li>
+                <li><a href="Collections.html">Collections</a></li>
+                <li class="menu-item">
+                    <a href="Gifts.html">Gifts</a>
+                    <ul class="submenu">
+                        <li><a href="#men-gift-sets">Men Gift Sets</a></li>
+                        <li><a href="#skincare-gift-sets">Skincare Gift Sets</a></li>
+                        <li><a href="#birthday-gift-sets">Birthday Gift Sets</a></li>
+                    </ul>
+                </li>
+                <li><a href="Our Stores.html">Our Stores</a></li>
+                <li><a href="Blog-Newsletter.html">Blog-Newsletter</a></li>
+                <li><a href="FAQS.html">FAQS</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Pictures.html">Pictures</a></li>
+                <li><a href="Event Experiences.html">Event Experiences</a></li>
+                <li><a href="My Account.html">My Account</a></li>  
+            </ul>
+
+            <!-- Search Bar -->
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div id="navbar"></div>
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
+
+        </nav>
+    </header>
+    <main>
+<!-- Title -->
+<h1 class="page-title">Gift Sets</h1>
+
+<!-- Men Gift Sets Section -->
+<section id="men-gift-sets" class="gift-section">
+    <h2>Men Gift Sets</h2>
+    <div class="content">
+        <img src="images/mengifts.jpg" alt="Men Gift Sets">
+        <p>Explore our premium Men Gift Sets, perfect for special occasions. From grooming essentials to luxurious colognes, these gift sets are tailored to make every man feel special.</p>
+    </div>
+</section>
+
+<!-- Skincare Gift Sets Section -->
+<section id="skincare-gift-sets" class="gift-section">
+    <h2>Skincare Gift Sets</h2>
+    <div class="content-grid">
+        <div class="grid-item">
+            <img src="images/skincare1.jpg" alt="Skincare Gift Sets">
+            <p>Discover skincare essentials, curated for a radiant and glowing skin. A perfect gift for skincare enthusiasts!</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/skincare2.jpg" alt="Skincare Gift Sets">
+            <p>Choose from our luxurious skincare sets to pamper your loved ones and show how much you care.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Birthday Gift Sets Section -->
+<section id="birthday-gift-sets" class="gift-section">
+    <h2>Birthday Gift Sets</h2>
+    <div class="content-grid">
+        <div class="grid-item">
+            <img src="images/birthdaygift1.jpg" alt="Birthday Gift Sets">
+            <p>Celebrate birthdays with our beautifully designed gift sets. Thoughtful, unique, and delightful!</p>
+        </div>
+        <div class="grid-item">
+            <img src="images/birthdaygift2.jpg" alt="Birthday Gift Sets">
+            <p>From elegant fragrances to makeup essentials, our birthday gift sets are the perfect way to show you care.</p>
+        </div>
+    </div>
+</section>
+</main>
+
+
+
+        <footer>
+            <section>
+                <p>If you have any questions, feel free to <a href="Contact Us.html">Contact Us</a>.</p>
+            </section>
+            <p>&copy; 2024 Rahissa Beauty. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="#"><img src="images/facebook.jpg" alt="Facebook Logo" class="icon"> Facebook</a></li>
+                <li><a href="#"><img src="images/instagram .jpg" alt="Instagram Logo" class="icon"> Instagram</a></li>
+                <li><a href="#"><img src="images/twitter.jpg" alt="Twitter Logo" class="icon"> Twitter</a></li>
+            </ul>
+        </footer>    
+        
+    </body>
+    </html>
