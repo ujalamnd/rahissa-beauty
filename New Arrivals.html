@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahissa Beauty - New Arrivals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Rahissa Beauty Logo.jpg" alt="Rahissa Beauty Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <ul class="horizontal-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="New Arrivals.html">New Arrivals</a></li>
+                <li><a href="Tutorials.html">Tutorials</a></li>
+                <li><a href="Make Up Sale.html">Make Up Sale</a></li>
+                <li><a href="Collections.html">Collections</a></li>
+                <li><a href="Gifts.html">Gifts</a></li>
+                <li><a href="Our Stores.html">Our Stores</a></li>
+                <li><a href="Blog-Newsletter.html">Blog-Newsletter</a></li>
+                <li><a href="FAQS.html">FAQS</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Pictures.html">Pictures</a></li>
+                <li><a href="Event Experiences.html">Event Experiences</a></li>
+                <li><a href="My Account.html">My Account</a></li>  
+            </ul>
+
+            <!-- Search Bar -->
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div id="navbar"></div>
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
+
+        </nav>
+    </header>
+    <main>
+        <!-- Page Title -->
+        <h1 class="page-title">New Arrivals</h1>
+
+        <!-- Lipstick 1 -->
+        <section class="product">
+            <img src="images/lipstick3.jpg" alt="Lipstick 3">
+            <div class="product-info">
+                <h2>Elegant Dark Rose Lipstick</h2>
+                <p>Enhance your beauty with this elegant rose shade. Perfect for daily wear or special occasions.</p>
+                <p class="price">$19.99</p>
+            </div>
+        </section>
+
+        <!-- Lipstick 2 -->
+        <section class="product">
+            <img src="images/featuredproduct1.jpg" alt="featuredproduct1">
+            <div class="product-info">
+                <h2>Bold Red Lipstick</h2>
+                <p>Make a bold statement with thess classic different shades of lipstick. Long-lasting and hydrating formula.</p>
+                <p class="price">$21.99</p>
+            </div>
+        </section>
+
+        <!-- Nail Polish -->
+        <section class="product">
+            <img src="images/nailpolish1.jpg" alt="Nail Polish">
+            <div class="product-info">
+                <h2>Red Shiny Nail Polish</h2>
+                <p>Get flawless nails with this shiny red shade. Perfect for any outfit and occasion.</p>
+                <p class="price">$9.99</p>
+            </div>
+        </section>
+    </main>
+
+
+        <footer>
+            <section>
+                <p>If you have any questions, feel free to <a href="Contact Us.html">Contact Us</a>.</p>
+            </section>
+            <p>&copy; 2024 Rahissa Beauty. All rights reserved.</p>
+            <ul class="social-media">
+                <li><a href="#"><img src="images/facebook.jpg" alt="Facebook Logo" class="icon"> Facebook</a></li>
+                <li><a href="#"><img src="images/instagram .jpg" alt="Instagram Logo" class="icon"> Instagram</a></li>
+                <li><a href="#"><img src="images/twitter.jpg" alt="Twitter Logo" class="icon"> Twitter</a></li>
+            </ul>
+        </footer>    
+        
+    </body>
+    </html>
