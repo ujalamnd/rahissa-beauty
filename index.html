@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahissa Beauty - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Rahissa Beauty Logo.jpg" alt="Rahissa Beauty Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <ul class="horizontal-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="New Arrivals.html">New Arrivals</a></li>
+                <li><a href="Tutorials.html">Tutorials</a></li>
+                <li><a href="Make Up Sale.html">Make Up Sale</a></li>
+                <li><a href="Collections.html">Collections</a></li>
+                <li><a href="Gifts.html">Gifts</a></li>
+                <li><a href="Our Stores.html">Our Stores</a></li>
+                <li><a href="Blog-Newsletter.html">Blog-Newsletter</a></li>
+                <li><a href="FAQS.html">FAQS</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <li><a href="Pictures.html">Pictures</a></li>
+                <li><a href="Event Experiences.html">Event Experiences</a></li>
+                <li><a href="My Account.html">My Account</a></li>  
+            </ul>
+
+            <!-- Search Bar -->
+        <div class="search-bar-container">
+            <input type="text" placeholder="Search..." class="search-input">
+            <button class="search-button">Search</button>
+        </div>
+
+        <div id="navbar"></div>
+<script>
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="profile">
+            <img src="images/profile.jpg" alt="Your Name" class="profile-photo">
+            <p>Hello! My name is Ujala Manandhar. I am passionate about beauty and skincare, with a mission to help others feel confident and radiant. Through my expertise and dedication, I strive to bring value and empowerment to beauty enthusiasts of all backgrounds. Rahissa Beauty is my platform to share tutorials, tips, and products that align with my vision of making beauty accessible and enjoyable for everyone.</p>
+        </section>
+
+        <!-- Optional Photo Gallery Section -->
+        <section class="gallery">
+            <h2>Photo Gallery</h2>
+            
+            <p>I love travelling with my friends, passionate about photgraphy and coordinate events. </p>
+            <div class="photo-grid">
+                <img src="images/travelling.jpg" alt="Gallery Image 1">
+                <img src="images/photography.jpg" alt="Gallery Image 2">
+                <img src="images/events.jpg" alt="Gallery Image 3">
+            </div>
+        </section>
+        
+        <section class="hero">
+            <h1>Welcome to Rahissa Beauty</h1>
+            <p>Your trusted partner for beauty and self-care.</p>
+            <button onclick="location.href='shop.html'">Shop Now</button>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product">
+                    <img src="Images/featuredproduct1.jpg" alt="Product 1">   
+                </div>
+                <div class="product">
+                    <img src="Images/featuredproduct2.jpg" alt="Product 2">
+                </div>
+                <div class="product">
+                    <img src="Images/featuredproduct3.jpg" alt="Product 2">
+                </div>
+                <div class="product">
+                    <img src="Images/featuredproduct4.jpg" alt="Product 2">
+                </div>
+                <div class="product">
+                    <img src="Images/featuredproduct5.jpg" alt="Product 2">
+                </div>
+                <div class="product">
+                    <img src="Images/featuredproduct6.jpg" alt="Product 2">
+                </div>
+            </div>
+        </section>
+
+        <section class="community">
+            <h2>What Our Customers Say</h2>
+            <blockquote>
+                "Rahissa Beauty transformed my skincare routine!" - A Happy Customer
+
+            </blockquote>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>If you have any questions, feel free to <a href="Contact Us.html">Contact Us</a>.</p>
+        </section>
+        <p>&copy; 2024 Rahissa Beauty. All rights reserved.</p>
+        <ul class="social-media">
+            <li><a href="#"><img src="images/facebook.jpg" alt="Facebook Logo" class="icon"> Facebook</a></li>
+            <li><a href="#"><img src="images/instagram .jpg" alt="Instagram Logo" class="icon"> Instagram</a></li>
+            <li><a href="#"><img src="images/twitter.jpg" alt="Twitter Logo" class="icon"> Twitter</a></li>
+        </ul>
+    </footer>    
+    
+</body>
+</html>
+
+
+
+
